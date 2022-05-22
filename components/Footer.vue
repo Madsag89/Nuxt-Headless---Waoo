@@ -6,42 +6,34 @@
           <h3 class="footer__heading">Kundeservice</h3>
           <ul class="footer__list">
             <li class="footer__item">
-              <a class="footer__anchor">Spørgsmål og svar</a>
+              <a href="https://www.waoo.dk/kundeservice/sporgsmal-og-svar/" class="footer__anchor">Spørgsmål og svar</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Vejledninger og vilkår</a>
+              <a href="https://www.waoo.dk/kundeservice/vejledninger-og-vilkaar/" class="footer__anchor">Vejledninger og vilkår</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Supportfilm</a>
+              <a href="https://www.waoo.dk/kundeservice/vejledninger-og-vilkaar/supportfilm/" class="footer__anchor">Supportfilm</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Kan jeg få fiber</a>
-            </li>
-
-            <li class="footer__item">
-              <a class="footer__anchor">Login Waoo Mobil</a>
+              <a href="https://www.waoo.dk/kundeservice/driftsinfo/" class="footer__anchor">Kan jeg få fiber</a>
             </li>
           </ul>
         </div>
 
-        <div class="footer-content">
+        <div class="footer__content">
           <h3 class="footer__heading">Produkter</h3>
           <ul class="footer__list">
             <li class="footer__item">
-              <a class="footer__anchor">Fiberbredbånd Produkter</a>
+              <a href="https://www.waoo.dk/fiberbredbaand-produkter/" class="footer__anchor">Fiberbredbånd Produkter</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">TV Produkter</a>
+              <a href="https://www.waoo.dk/produkter/tv-produkter/" class="footer__anchor">TV Produkter</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Telefoni</a>
+              <a href="https://www.waoo.dk/telefoni/" class="footer__anchor">Telefoni</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Hastighedstest</a>
-            </li>
-
-            <li class="footer__item">
-              <a class="footer__anchor">Login Waoo Mobil</a>
+              <a href="https://www.waoo.dk/om-waoo/hastighedstest/" class="footer__anchor">Hastighedstest</a>
             </li>
           </ul>
         </div>
@@ -50,22 +42,22 @@
           <h3 class="footer__heading">Om Waoo</h3>
           <ul class="footer__list">
             <li class="footer__item">
-              <a class="footer__anchor">Presse</a>
+              <a href="https://www.waoo.dk/produkter/tv-produkter/" class="footer__anchor">Presse</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Ledelse</a>
+              <a href="https://www.waoo.dk/om-waoo/hastighedstest/" class="footer__anchor">Ledelse</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Job</a>
+              <a href="https://www.waoo.dk/telefoni/" class="footer__anchor">Job</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Om Waoo</a>
+              <a href="https://www.waoo.dk/om-waoo/" class="footer__anchor">Om Waoo</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Persondata- <br />og coockiepolitik</a>
+              <a href="https://www.waoo.dk/om-waoo/persondataogcookies/" class="footer__anchor">Persondata- <br />og coockiepolitik</a>
             </li>
             <li class="footer__item">
-              <a class="footer__anchor">Netneutralitet</a>
+              <a href="https://www.waoo.dk/om-waoo/netneutralitet/" class="footer__anchor">Netneutralitet</a>
             </li>
           </ul>
         </div>
@@ -74,7 +66,7 @@
           <h3 class="footer__heading">Kontakt</h3>
           <ul class="footer__list">
             <li class="footer__item">
-              <a class="footer__anchor">Kontakt kundeservice</a>
+              <a href="https://www.waoo.dk/kundeservice/kontakt-kundeservice/" class="footer__anchor">Kontakt kundeservice</a>
             </li>
           </ul>
         </div>
@@ -85,6 +77,7 @@
           <img
             class="footer__image"
             src="~/assets/images/waoo-logo-footer.png"
+            alt="Waoo Logo"
           />
           <p>Copyright © 2022 Waoo. Alle rettigheder forbeholdes.</p>
         </div>
@@ -100,7 +93,7 @@
           <a
             class="footer__reference"
             href="https://www.facebook.com/waoo.dk/?ref=br_rs"
-            target="_blanck"
+            target="_blank"
           >
             <img
               class="footer__social-image"
@@ -112,7 +105,7 @@
           <a
             class="footer__reference"
             href="https://www.instagram.com/waoo.dk/?hl=en"
-            target="_blanck"
+            target="_blank"
           >
             <img
               class="footer__social-image"
@@ -123,7 +116,7 @@
           <a
             class="footer__reference"
             href="https://www.youtube.com/user/WaooFiberbredbaand"
-            target="_blanck"
+            target="_blank"
           >
             <img
               class="footer__social-image"
@@ -134,7 +127,7 @@
           <a
             class="footer__reference"
             href="https://www.linkedin.com/company/waoo-/"
-            target="_blanck"
+            target="_blank"
           >
             <img
               class="footer__social-image"
@@ -150,61 +143,6 @@
 <script>
 export default {
   name: "Footer",
-  components: {},
-
-  data() {
-    return {
-      items: [
-        {
-          footerItem: "Spørgsmål og svar",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerItem: "Vejledninger og vilkår",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerItem: "Supportfilm",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerItem: "Vejledninger og vilkår",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerHeading: "Kundeservice",
-        },
-        {
-          footerHeading: "Produkter",
-          footerItem: "Spørgsmål og svar",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerItem: "Vejledninger og vilkår",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerItem: "Supportfilm",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-          footerItem: "Vejledninger og vilkår",
-          footerItemUrl: "https://www.waoo.dk/kundeservice/sporgsmal-og-svar/",
-        },
-
-        // { footerItemKundeservice: "Spørgsmål og svar",
-
-        // },
-        // { footerItemKundeservice: "Vejledninger og vilkår" },
-        // { footerItemKundeservice: "Supportfilm" },
-        // { footerItemKundeservice: "Kan jeg få fiber?" },
-        // { footerItemKundeservice: "Login Waoo Mobil" },
-        // { footerHeading: "Produkter" },
-        // { footerItem: "Fiberbredbånd Produkter" },
-        // { footerItem: "TV Produkter" },
-        // { footerItem: "Telefoni" },
-        // { footerItem: "Hastighedstest" },
-        // { footerHeading: "Om Waoo" },
-        // { footerItem: "Presse" },
-        // { footerItem: "Ledelse" },
-        // { footerItem: "Job" },
-        // { footerItem: "Om Waoo" },
-        // { footerItem: "Persondata- og cookiepolitik" },
-        // { footerItem: "Netneutralitet" },
-        // { footerHeading: "Kontakt" },
-        // { footerItem: "Kontakt Kundeservice" },
-        // { footerItem: "TV" },
-        // { footerItem: "Streaming" },
-        // { footerItem: "Telefoni" },
-      ],
-    };
-  },
 };
 </script>
 
@@ -247,6 +185,14 @@ export default {
 
   &__item {
     margin-bottom: 15px;
+  }
+
+  &__anchor{
+    color: white;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
   }
 
   &__copyright {

@@ -91,7 +91,7 @@ export default {
 
   &__heading {
     text-align: center;
-    font-size: 30;
+    font-size: 30px;
   }
   &__image {
     display: block;
@@ -148,7 +148,6 @@ export default {
 
     input[type="checkbox"] {
       margin-right: $spacer-s;
-      background-color: $secondary-color;
     }
   }
 

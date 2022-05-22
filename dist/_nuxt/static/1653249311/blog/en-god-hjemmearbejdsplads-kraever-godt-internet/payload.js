@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog/en-god-hjemmearbejdsplads-kraever-godt-internet", {data:[{}],fetch:{},mutations:[]});

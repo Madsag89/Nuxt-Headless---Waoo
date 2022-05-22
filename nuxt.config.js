@@ -11,33 +11,31 @@ let dynamicRoutes = () => {
 
 export default {
   target: 'static',
-  router: {
-    base: 'Madsag89.github.io',
-  },
+
   head: {
+    title: 'Indretning af hjemmekontor • Få en guide med inspiration her',
     htmlAttrs: {
-      lang: 'da'
+      lang: 'da',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: "width=device-width, initial-scale=1" },
       { hid: 'title', name: 'title', content: "Indretning af hjemmekontor • Få en guide med inspiration her"},
       { hid: 'description', name: "description", content: "Hjemmekontoret kræver en indretning, der passer til dine arbejdsbehov. Få inspiration og vores bedste tips i denne guide"},
-      { hid: 'canonical', rel: 'canonical', href: 'http://madsag89.github.io/'},
       
-      { hid: 'theme-color', content: "#ffffff"},
-      { hid: 'application-name', content: "Waoo"},
+      { hid: 'theme-color', name: 'theme-color', content: "#ffffff"},
+      { hid: 'application-name', name: 'application-name', content: "Waoo - Headless Nuxt"},
 
       { hid: 'robots', name: 'robots',  content: 'noindex'},
       { hid: 'robots', name: 'robots', content: 'nofollow'},
 
-      { hid: 'og:title', content: "Indretning af hjemmekontor • Få en guide med inspiration her"},
-      { hid: 'og:site_name', content: "Det ultimative hjemmekontor"},
-      { hid: 'og:url', content: 'madsag89.github.io'},
-      { hid: 'og:description', content: "Hjemmekontoret kræver en indretning, der passer til dine arbejdsbehov. Få inspiration og vores bedste tips i denne guide"},
-      { hid: 'og:type', content: "website"},
-      { hid: 'og:image', content: "http://madsaj.dk/wp-content/uploads/2022/04/waoowaoowaoo.png"},
-      { property: 'og:locale', content: 'da_DA'
+      { hid: 'og:title', name: 'og:title', content: "Indretning af hjemmekontor • Få en guide med inspiration her"},
+      { hid: 'og:site_name', name: 'og:site_name', content: "Det ultimative hjemmekontor"},
+      { hid: 'og:url', name: 'og:url', content: 'madsag89.github.io'},
+      { hid: 'og:description', name: 'og:description', content: "Hjemmekontoret kræver en indretning, der passer til dine arbejdsbehov. Få inspiration og vores bedste tips i denne guide"},
+      { hid: 'og:type', name: 'og:type', content: "website"},
+      { hid: 'og:image', name: 'og:image', content: "http://madsaj.dk/wp-content/uploads/2022/04/waoowaoowaoo.png"},
+      { property: 'og:locale', name: 'og:image', content: 'da_DA'
           }
     ],
     link: [

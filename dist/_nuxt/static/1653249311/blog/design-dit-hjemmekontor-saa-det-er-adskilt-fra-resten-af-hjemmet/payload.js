@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog/design-dit-hjemmekontor-saa-det-er-adskilt-fra-resten-af-hjemmet", {data:[{}],fetch:{},mutations:[]});

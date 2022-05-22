@@ -62,6 +62,7 @@ export default {
       ],
     };
   },
+
 };
 </script>
 
@@ -81,7 +82,7 @@ export default {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     transition: 0.1s all ease-out;
     height: 110px;
-    width: 100vw;
+    width: 100%;
     background-color: $primary-color;
   }
 
@@ -93,6 +94,7 @@ export default {
     width: 44px;
     height: 44px;
     border-radius: 44px;
+
   }
 
   &__burger-mobile > span {

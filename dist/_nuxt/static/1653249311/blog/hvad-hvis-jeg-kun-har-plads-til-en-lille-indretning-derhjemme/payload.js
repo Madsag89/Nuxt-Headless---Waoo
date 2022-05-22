@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog/hvad-hvis-jeg-kun-har-plads-til-en-lille-indretning-derhjemme", {data:[{}],fetch:{},mutations:[]});

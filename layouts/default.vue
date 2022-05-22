@@ -2,12 +2,12 @@
   <div>
     <header>
       <Navigation />
+      <Hero />
     </header>
-    <Hero />
     <main>
       <Introduction />
       <Form />
-      <nuxt />
+      <Posts />
     </main>
     <footer>
       <Footer />
@@ -21,6 +21,7 @@ import Footer from "~/components/Footer.vue";
 import Introduction from "~/components/Introduction.vue";
 import Form from "~/components/Form.vue";
 import Hero from "~/components/Hero.vue";
+import Posts from "~/components/Posts.vue";
 
 export default {
   components: {
@@ -29,6 +30,17 @@ export default {
     Introduction,
     Form,
     Hero,
+    Posts
+  },
+  data() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'http://waoo.madsaj.dk/',
+        }
+      ]
+    };
   },
 };
 </script>

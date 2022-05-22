@@ -1,10 +1,13 @@
 <template>
   <div class="nav__container">
+
     <AnnouncementBar />
 
-    <Mobile-navigation />
+    <Mobile-navigation  />
 
     <Laptop-navigation />
+
+
   </div>
 </template>
 
@@ -22,6 +25,8 @@ export default {
     AnnouncementBar,
     MobileNavigation,
     LaptopNavigation,
+
+    
   },
 };
 </script>
@@ -36,4 +41,5 @@ export default {
     align-items: center;
   }
 }
+
 </style>
