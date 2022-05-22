@@ -1,0 +1,11 @@
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21.965" viewBox="0 0 24 21.965">
+  <g id="shopping-cart" transform="translate(0 -0.033)">
+    <path id="Shape" d="M0,2.993A2.993,2.993,0,1,1,2.993,5.985,3,3,0,0,1,0,2.993Z" transform="translate(16.01 16.013)"/>
+    <path id="Shape-2" data-name="Shape" d="M6.943,14.693A.9.9,0,0,1,6.07,14L3.152,1.8H.9A.9.9,0,0,1,.9,0H3.86a.9.9,0,0,1,.874.689l.807,3.38H23.1a.9.9,0,0,1,.871,1.113l-2.184,8.828a.9.9,0,0,1-.871.681Z" transform="translate(0 0.033)"/>
+    <path id="Shape-3" data-name="Shape" d="M0,2.993A2.993,2.993,0,1,1,2.993,5.985,3,3,0,0,1,0,2.993Z" transform="translate(5.147 16.013)"/>
+    <path id="Shape-4" data-name="Shape" d="M6.943,14.693A.9.9,0,0,1,6.07,14L3.152,1.8H.9A.9.9,0,0,1,.9,0H3.86a.9.9,0,0,1,.874.689l.807,3.38H23.1a.9.9,0,0,1,.871,1.113l-2.184,8.828a.9.9,0,0,1-.871.681Z" transform="translate(0 0.033)"/>
+    <path id="Shape-5" data-name="Shape" d="M0,1.493A1.493,1.493,0,1,1,1.493,2.985,1.494,1.494,0,0,1,0,1.493Z" transform="translate(6.646 17.513)" fill="#fff"/>
+    <path id="Shape-6" data-name="Shape" d="M0,1.493A1.493,1.493,0,1,1,1.493,2.985,1.494,1.494,0,0,1,0,1.493Z" transform="translate(17.51 17.513)" fill="#fff"/>
+    <path id="Path_1" data-name="Path 1" d="M22301.451-7363.761h13.162l1.754-8h-16.826Z" transform="translate(-22294 7377)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126.457" height="115.737" viewBox="0 0 126.457 115.737">
+  <g id="shopping-cart" transform="translate(0 -0.033)">
+    <path id="Shape" d="M0,15.768A15.768,15.768,0,1,1,15.768,31.536,15.788,15.788,0,0,1,0,15.768Z" transform="translate(84.359 84.234)"/>
+    <path id="Shape-2" data-name="Shape" d="M36.581,77.417a4.728,4.728,0,0,1-4.6-3.628L16.607,9.461H4.728A4.73,4.73,0,0,1,4.728,0H20.339a4.737,4.737,0,0,1,4.6,3.633L29.2,21.444h92.53a4.727,4.727,0,0,1,4.59,5.866L114.809,73.827a4.728,4.728,0,0,1-4.59,3.59Z" transform="translate(0 0.033)"/>
+    <path id="Shape-3" data-name="Shape" d="M0,15.768A15.768,15.768,0,1,1,15.768,31.536,15.788,15.788,0,0,1,0,15.768Z" transform="translate(27.121 84.234)"/>
+    <g id="shopping-cart-2" data-name="shopping-cart" transform="translate(0 0.033)">
+      <path id="Shape-4" data-name="Shape" d="M0,15.768A15.768,15.768,0,1,1,15.768,31.536,15.788,15.788,0,0,1,0,15.768Z" transform="translate(84.359 84.201)" fill="#9a9a9a"/>
+      <path id="Shape-5" data-name="Shape" d="M36.581,77.417a4.728,4.728,0,0,1-4.6-3.628L16.607,9.461H4.728A4.73,4.73,0,0,1,4.728,0H20.339a4.737,4.737,0,0,1,4.6,3.633L29.2,21.444h92.53a4.727,4.727,0,0,1,4.59,5.866L114.809,73.827a4.728,4.728,0,0,1-4.59,3.59Z" fill="#9a9a9a"/>
+      <path id="Shape-6" data-name="Shape" d="M0,15.768A15.768,15.768,0,1,1,15.768,31.536,15.788,15.788,0,0,1,0,15.768Z" transform="translate(27.121 84.201)" fill="#9a9a9a"/>
+    </g>
+    <path id="Path_6" data-name="Path 6" d="M-2429.354,268.472h81.069l-8.524,36.046h-64.326Z" transform="translate(2463.002 -236.326)" fill="#081edd"/>
+    <path id="Path" d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Z" transform="translate(35.893 93.006)" fill="#081edd" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path-2" data-name="Path" d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Z" transform="translate(93.131 93.006)" fill="#081edd" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

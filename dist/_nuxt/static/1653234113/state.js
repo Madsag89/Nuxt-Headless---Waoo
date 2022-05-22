@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"Madsag89.github.io\u002F_nuxt\u002Fstatic\u002F1653234113",layout:"default",error:a,state:{posts:[]},serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"Madsag89.github.io\u002F",assetsPath:"Madsag89.github.io\u002F_nuxt\u002F",cdnURL:a}}}}(null));

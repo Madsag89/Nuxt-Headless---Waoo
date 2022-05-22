@@ -1,0 +1,83 @@
+@import "@/assets/scss/variables.scss";
+.sidebar {
+  &__container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 320px;
+    height: 100%;
+    display: none;
+    background-color: $bg-secondary-color;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.3s;
+    transition: all;
+  }
+
+  &__item {
+    list-style-type: none;
+    margin-bottom: $base-space;
+  }
+
+  &__anchor {
+    text-decoration: none;
+    font-family: $heading;
+    font-weight: 900;
+    color: $secondary-color;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    padding: $spacer-m $spacer-l;
+    border-top: 1px solid rgb(186, 186, 186);
+    border-bottom: 1px solid rgb(186, 186, 186);
+  }
+
+  &__close {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    color: #4b4b4b;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    cursor: pointer;
+  }
+}
+
+.burgerMenu {
+  display: block !important;
+
+}
+
+@media screen and (min-width: 1200px) {
+  .sidebar {
+
+    &__container{
+      padding: 0rem;
+    }
+
+    &__close {
+      height: 24px;
+
+      &:nth-child(2) {
+        flex-direction: row-reverse;
+      }
+    }
+    &__content {
+      width: 50%;
+    }
+
+    &__image-container {
+      width: 43%;
+    }
+
+  }
+}
